@@ -47,7 +47,7 @@ class HeaderViewHeader extends StatelessWidget {
                   cursor: SystemMouseCursors.click,
                   child: GestureDetector(
                     onTap: () {
-                        html.window.location.reload();
+                      html.window.location.reload();
                     },
                     child: const Text(
                       'JM',

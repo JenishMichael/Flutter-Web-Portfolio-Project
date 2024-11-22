@@ -60,6 +60,7 @@ class _HomeState extends State<Home> {
             future: fetchDate(),
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
+                print("Home");
                 return const Loading();
               } else {
                 return ResponsiveBuilder(
