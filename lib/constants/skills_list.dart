@@ -1,29 +1,35 @@
 List<String> skillName = [
   "Java",
-  "Flutter",
+  "Spring Boot",
+  "React",
   "My Sql",
-  "Dart",
   "Mongo DB",
+  "Flutter",
+  "Dart",
   "HTML",
-  "CSS"
+  "CSS",
 ];
 
 List<String> skillImg48 = [
   "java48.png",
-  "flutter48.png",
+  "springBoot48.png",
+  "react48.png",
   "mysql48.png",
-  "dart48.png",
   "mongodb48.png",
+  "flutter48.png",
+  "dart48.png",
   "html48.png",
-  "css48.png"
+  "css48.png",
 ];
 
 List<String> skillImg60 = [
   "java60.png",
-  "flutter60.png",
+  "springBoot60.png",
+  "react60.png",
   "mysql60.png",
-  "dart60.png",
   "mongodb60.png",
+  "flutter60.png",
+  "dart60.png",
   "html60.png",
-  "css60.png"
+  "css60.png",
 ];

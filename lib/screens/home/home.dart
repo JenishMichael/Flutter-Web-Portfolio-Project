@@ -13,6 +13,7 @@ final GlobalKey homeKey = GlobalKey();
 final GlobalKey aboutMeKey = GlobalKey();
 final GlobalKey skillskey = GlobalKey();
 final GlobalKey contactKey = GlobalKey();
+final GlobalKey projectKey = GlobalKey();
 
 class Home extends StatefulWidget {
   const Home({super.key});

@@ -30,20 +30,20 @@ class DrawerAppBar extends StatelessWidget {
                 return ListTile(
                   leading: Icon(drawerIcon[index]),
                   title: Text(drawerText[index]),
-                  trailing: (index == 5)
-                      ? Switch(
-                          value: context
-                              .watch<ThemeProvider>()
-                              .isDarkMode, // Bind the current mode
+                  // trailing: (index == 5)
+                  //     ? Switch(
+                  //         value: context
+                  //             .watch<ThemeProvider>()
+                  //             .isDarkMode, // Bind the current mode
 
-                          onChanged: (value) {
-                            context
-                                .read<ThemeProvider>()
-                                .toggle(); // Toggle theme
-                            Navigator.of(context).pop();
-                          },
-                        )
-                      : null,
+                  //         onChanged: (value) {
+                  //           context
+                  //               .read<ThemeProvider>()
+                  //               .toggle(); // Toggle theme
+                  //           Navigator.of(context).pop();
+                  //         },
+                  //       )
+                  //     : null,
                   onTap: (index != 5)
                       ? () {
                           switch (index) {
@@ -71,6 +71,11 @@ class DrawerAppBar extends StatelessWidget {
                               Navigator.of(context).pop();
                               break;
                             case 3:
+                              Scrollable.ensureVisible(
+                                projectKey.currentContext!,
+                                duration: const Duration(seconds: 1),
+                                curve: Curves.easeInOut,
+                              );
                               Navigator.of(context).pop();
                               break;
                             case 4:

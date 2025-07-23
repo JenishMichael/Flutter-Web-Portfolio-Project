@@ -46,12 +46,10 @@ class MobileAboutMe extends StatelessWidget {
                           ),
                         ),
                         TextSpan(
-                          text:
-                              "a passionate software developer with expertise in Java and Flutter. "
-                              "I completed my Bachelor of Science in Information Technology (B.Sc. IT) in 2023 at S.I.E.S College of Commerce and Economics."
-                              " I build applications that focus on performance and user experience, and I thrive on solving complex problems and creating intuitive, user-friendly solutions."
-                              " When I’m not coding, you might find me exploring new technologies, reading tech blogs, or working on personal projects.",
-                        ),
+                            text:
+                                "a passionate Java backend developer with hands-on experience building real-world applications using Spring Boot, REST APIs, JWT authentication, and microservices architecture with Eureka, API Gateway, and Feign."
+                                "I hold a B.Sc. in Information Technology (2023) from S.I.E.S College of Commerce and Economics. I enjoy solving backend challenges, designing scalable APIs, and ensuring clean code and performance."
+                                "I’ve also worked with Flutter for cross-platform mobile apps, and I'm comfortable with frontend tools like React. Outside coding, I explore new technologies, read developer blogs, and build personal projects to keep growing."),
                       ],
                     ),
                   ),

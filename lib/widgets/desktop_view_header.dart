@@ -94,6 +94,11 @@ class DesktopViewHeader extends StatelessWidget {
 
                             break;
                           case 3:
+                            Scrollable.ensureVisible(
+                              projectKey.currentContext!,
+                              duration: const Duration(seconds: 1),
+                              curve: Curves.easeInOut,
+                            );
                             break;
                         }
                       },
@@ -130,15 +135,15 @@ class DesktopViewHeader extends StatelessWidget {
                     ),
                   ),
                 ),
-                Switch(
-                  value: context
-                      .watch<ThemeProvider>()
-                      .isDarkMode, // Bind the current mode
+                // Switch(
+                //   value: context
+                //       .watch<ThemeProvider>()
+                //       .isDarkMode, // Bind the current mode
 
-                  onChanged: (value) {
-                    context.read<ThemeProvider>().toggle(); // Toggle theme
-                  },
-                ),
+                //   onChanged: (value) {
+                //     context.read<ThemeProvider>().toggle(); // Toggle theme
+                //   },
+                // ),
               ],
             ),
           ],

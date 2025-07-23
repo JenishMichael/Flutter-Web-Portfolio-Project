@@ -6,7 +6,6 @@ List<String> drawerText = [
   "Skills",
   "Projects",
   "Contact Me",
-  "Theme",
 ];
 
 List<IconData> drawerIcon = [
@@ -15,5 +14,4 @@ List<IconData> drawerIcon = [
   Icons.build,
   Icons.work,
   Icons.call,
-  Icons.brightness_6,
 ];

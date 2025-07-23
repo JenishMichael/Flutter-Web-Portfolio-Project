@@ -21,17 +21,14 @@ class SkillContainerBuilder extends StatelessWidget {
         for (int i = initial; i < length; i++)
           Container(
             // color: Colors.grey,
-            padding: const EdgeInsets.all(10),
             width: screenWidthMob < 1000 ? 90 : 140,
             height: screenWidthMob < 1000 ? 90 : 140,
             child: Column(
               children: [
                 Image(
-                  image: AssetImage(
-                      // "assets/image/${skillImg48[i]}",
-                      screenWidthMob < 1000
-                          ? "assets/image/${skillImg48[i]}"
-                          : "assets/image/${skillImg60[i]}"),
+                  image: AssetImage(screenWidthMob < 1000
+                      ? "assets/image/${skillImg48[i]}"
+                      : "assets/image/${skillImg60[i]}"),
                 ),
                 Text(
                   skillName[i],

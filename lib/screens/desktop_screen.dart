@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_web_portfolio_project/widgets/desktop_view_header.dart';
 import 'package:flutter_web_portfolio_project/widgets/desktop_widget/desktop_about_me.dart';
 import 'package:flutter_web_portfolio_project/widgets/desktop_widget/desktop_intro.dart';
+import 'package:flutter_web_portfolio_project/widgets/desktop_widget/work_section.dart';
 import 'package:flutter_web_portfolio_project/widgets/mobile_widget/mobile_contact.dart';
 import 'package:flutter_web_portfolio_project/widgets/mobile_widget/mobile_skills.dart';
 
@@ -22,6 +23,7 @@ class DesktopScreen extends StatelessWidget {
               children: [
                 DesktopIntro(),
                 DesktopAboutMe(),
+                WorkSection(),
                 MobileSkills(),
                 MobileContact(),
               ],

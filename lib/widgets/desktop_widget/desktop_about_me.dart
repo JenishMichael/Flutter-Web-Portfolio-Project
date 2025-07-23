@@ -32,7 +32,8 @@ class DesktopAboutMe extends StatelessWidget {
                   separatorNameSize: 29,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20, bottom: 35),
+                  padding: const EdgeInsets.only(
+                      top: 20, bottom: 35, left: 100, right: 100),
                   child: RichText(
                     text: TextSpan(
                       style: TextStyle(
@@ -48,10 +49,12 @@ class DesktopAboutMe extends StatelessWidget {
                         ),
                         TextSpan(
                           text:
-                              "a passionate software developer with expertise in Java and Flutter. "
-                              "I completed my Bachelor of Science in Information Technology (B.Sc. IT) in 2023 at S.I.E.S College of Commerce and Economics."
-                              " I build applications that focus on performance and user experience, and I thrive on solving complex problems and creating intuitive, user-friendly solutions."
-                              " When I’m not coding, you might find me exploring new technologies, reading tech blogs, or working on personal projects.",
+                              "a passionate Java backend developer with hands-on experience building real-world applications using Spring Boot, REST APIs, JWT authentication, and microservices architecture with Eureka, API Gateway, and Feign. "
+                              "I hold a B.Sc. in Information Technology (2023) from S.I.E.S College of Commerce and Economics. I enjoy solving backend challenges, designing scalable APIs, and ensuring clean code and performance. "
+                              "I'm comfortable with frontend tools like React and follow clean architecture principles in all my projects. "
+                              "My strength lies in writing secure, testable code and building scalable backend systems that can grow with user demand. "
+                              "I’m actively seeking opportunities where I can contribute to impactful products, collaborate with experienced teams, and keep growing as a developer. "
+                              "In addition, I’ve worked with Flutter for cross-platform mobile apps and enjoy experimenting with mobile UI design in my spare time.",
                         ),
                       ],
                     ),

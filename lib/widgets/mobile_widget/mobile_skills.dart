@@ -26,6 +26,7 @@ class MobileSkills extends StatelessWidget {
           ),
           SkillContainerBuilder(initial: 0, length: 3),
           SkillContainerBuilder(initial: 3, length: 6),
+          SkillContainerBuilder(initial: 6, length: 9),
         ],
       ),
     );

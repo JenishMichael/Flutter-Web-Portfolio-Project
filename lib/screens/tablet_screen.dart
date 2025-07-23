@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_portfolio_project/widgets/mobile_view_header.dart';
+import 'package:flutter_web_portfolio_project/widgets/mobile_widget/mob_work.dart';
 import 'package:flutter_web_portfolio_project/widgets/mobile_widget/mobile_about_me.dart';
 import 'package:flutter_web_portfolio_project/widgets/mobile_widget/mobile_contact.dart';
 import 'package:flutter_web_portfolio_project/widgets/mobile_widget/mobile_skills.dart';
@@ -14,16 +15,17 @@ class TabletScreen extends StatelessWidget {
     return Column(
       children: [
         HeaderViewHeader(scaffoldKey: scaffoldKey),
-        const Expanded(
+        Expanded(
           child: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                TabletHome(),
-                MobileAboutMe(),
-                MobileSkills(),
-                MobileContact(),
+                const TabletHome(),
+                const MobileAboutMe(),
+                MobWork(screenWidth: MediaQuery.sizeOf(context).width),
+                const MobileSkills(),
+                const MobileContact(),
               ],
             ),
           ),

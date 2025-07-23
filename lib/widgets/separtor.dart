@@ -60,6 +60,17 @@ class Separator extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                if (separatorName == "Selected")
+                  TextSpan(
+                    text: " Work",
+                    style: TextStyle(
+                      color: Colors.orange,
+                      fontFamily: "NewTegomin",
+                      fontSize: separatorNameSize,
+                      //Default 25
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
               ],
             ),
           ),
